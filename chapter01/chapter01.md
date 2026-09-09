@@ -409,7 +409,7 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
+import seaborn as sn
 
 DATA_DIR = Path('../data/raw')
 sns.set_theme(style='whitegrid')
@@ -417,25 +417,26 @@ sns.set_theme(style='whitegrid')
 
 #### 실행 결과
 
-```text
-오류 없이 실행되었는지 작성하세요.
+```
+오류 없이 실행되었습니다.
 ```
 
 #### 결과 관찰
-
-실행 결과에서 확인한 사실을 작성하세요.
+PS C:\dev\git-basic-lab> & C:\Users\user\AppData\Local\Python\pythoncore-3.14-64\python.exe "c:/dev/git-basic-lab/llm-data-analysis-course/from pathlib import Path.py"
+환경 설정 완료!
 
 #### 나의 해석과 판단
 
-현재 Notebook이 본격 분석이 아니라 starter scaffold라는 의미를 자신의 말로 설명하세요.
+현재 Notebook은 데이터를 가공하거나 통계 내는 데이터 분석 단계가 아닌 데이터 분석 전에 라이브러리들이 제대로 작동하는지 확인하는 단계입니다.
 
 #### 한계와 추가 확인 사항
-
-Chapter 02 또는 Chapter 03에서 추가로 확인해야 할 내용을 작성하세요.
+데이터 분석에 대한 역량을 좀더 키우고 현명한 의사결정 판단을 할 수 있도록 할 것 입니다.
 
 #### Evidence
 
-![STEP 7 Notebook 실행 결과](images/step07_notebook_result.png)
+![STEP 7 Notebook 실행 결과](images/<img width="1552" height="807" alt="step07_notebook_result" src="https://github.com/user-attachments/assets/68695616-7f05-4bb8-ac84-189a921b8775" />.png)
+<img width="1552" height="807" alt="step07_notebook_result" src="https://github.com/user-attachments/assets/900b97d2-3bf1-4f6d-9390-c3f4ac5b7431" />
+
 
 > 환경설정 전이라면 이 이미지는 생략할 수 있습니다.
 
@@ -445,25 +446,26 @@ Chapter 02 또는 Chapter 03에서 추가로 확인해야 할 내용을 작성�
 
 ### 이번 장에서 가장 중요하다고 생각한 내용
 
-```text
-자신의 말로 3~5문장 작성하세요.
+```
+1. 의사결정을 하는 데에 있어 LLM의 순기능
+2. 데이터 분석을 하는데 데이터간 맵핑
+3. 원하는 결과를 도출하기 위한 기준선
 ```
 
 ### LLM을 데이터 분석에 사용할 때 가장 조심해야 할 점
 
-```text
-자신의 판단을 작성하세요.
+```
+코드 분석에 대하여 무조건적으로 신뢰하는 부분을 조심해야한다고 생각합니다.
 ```
 
 ### 사람과 LLM의 역할 차이
 
 | 항목 | LLM이 도울 수 있는 부분 | 사람이 책임져야 하는 부분 |
-| --- | --- | --- |
-| 질문 정의 |  |  |
-| 데이터 확인 |  |  |
-| 코드 작성 |  |  |
-| 결과 해석 |  |  |
-| 최종 판단 |  |  |
+| 질문 정의 | 비즈니스 문제에 맞는 분석 아이디어 및 세부 질문 리스트 제안 |비즈니스목표에 부합하는 핵심 문제 설정 및 우선순위 결정  |
+| 데이터 확인 | 데이터의 구조, 컬럼별 설명, 기초 통계량 확인 코드 생성 | 데이터의 신뢰성 검증, 데이터 오염 여부 판단 및 정의 확인 |
+| 코드 작성 | 분석 및 시각화에 필요한 파이썬/Pandas 코드 자동 작성 및 에러 수정 | 생성된 코드가 목적에 맞게 동작하는지 실행 및 코드 적절성 검증 |
+| 결과 해석 | 수치 변화, 패턴, 상위 데이터에 대한 다각도 요약 분석 제공 | 도출된 해석이 현실적 맥락에 맞는지 검토 및 오류/착시 선별 |
+| 최종 판단 | 데이터에 기반한 프로모션 전략이나 액션 플랜의 다양한 선택지 제시 | 실제 사업/업무 환경에 적용할 최종 의사결정 및 결과에 대한 책임|
 
 ### 다음 Chapter에서 확인하고 싶은 것
 
@@ -513,6 +515,6 @@ https://github.com/<내-GitHub-ID>/llm-data-analysis-study/blob/main/chapter01/c
 
 ### 아직 확인이 필요한 내용 1개
 
-```text
-여기에 작성하세요.
+```
+실제 상황에 이걸 적용했을때의 변수 혹은 놓친 부분 여부
 ```
