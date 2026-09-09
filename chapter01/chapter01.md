@@ -66,6 +66,7 @@
 ### Evidence
 
 ![STEP 1 질문 구체화 결과](images/step01_question.png)
+<img width="971" height="857" alt="step01_question" src="https://github.com/user-attachments/assets/7150d889-6e4e-47ea-9f39-aec4c910772e" />
 
 ---
 
@@ -226,6 +227,8 @@ day_of_week  total_revenue  order_count
 필요한 경우 관계도 또는 데이터 파일 확인 화면을 첨부하세요.
 
 ![STEP 2 데이터 구조 확인](images/step02_data_structure.png)
+<img width="1916" height="1021" alt="step02_data_structure" src="https://github.com/user-attachments/assets/4526854a-b831-4dce-b9ec-8e4c78bc9569" />
+<img width="1917" height="987" alt="step02-1_data_structure" src="https://github.com/user-attachments/assets/1385488e-bba6-4f0b-b3b6-2cbc9f2ce670" />
 
 ---
 
@@ -286,6 +289,7 @@ LLM의 전체 답변을 그대로 복사하지 말고 핵심 제안 3~5개를 �
 ### Evidence
 
 ![STEP 3 LLM Prompt와 응답](images/step03_llm_response.png)
+<img width="602" height="908" alt="step03_llm_response" src="https://github.com/user-attachments/assets/202fb4e8-e4e7-4a05-a7d1-4355897c71c6" />
 
 
 
