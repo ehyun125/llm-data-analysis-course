@@ -8,7 +8,7 @@
 - GitHub ID: ehyun125
 - 개인 저장소: `llm-data-analysis-study`
 - 작성일: 26.09.15
-- 운영체제: Window
+- 운영체제: Windows
 
 ### 최종 제출 URL
 
@@ -29,7 +29,7 @@ git --version
 
 ### 실행 결과
 
-```text
+```
 PS C:\Users\user> python --version
 Python 3.13.13
 PS C:\Users\user> git --version
