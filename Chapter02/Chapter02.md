@@ -13,7 +13,7 @@
 ### 최종 제출 URL
 
 ```text
-https://github.com/<GitHub-ID>/llm-data-analysis-study/blob/main/chapter02/chapter02.md
+https://github.com/ehyun125/llm-data-analysis-study/blob/main/chapter02/chapter02.md
 ```
 
 ---
@@ -62,28 +62,30 @@ Python 기본 환경만 확인된 상태이므로, 실습 프로젝트에서 요
 
 ### 수행 내용
 
-- [ ] 공식 Public 저장소 clone
-- [ ] 프로젝트 루트 확인
-- [ ] `.venv` 생성
-- [ ] `.venv` 활성화
-- [ ] `requirements.txt` 설치
+- [o] 공식 Public 저장소 clone
+- [o] 프로젝트 루트 확인
+- [o] `.venv` 생성
+- [o] `.venv` 활성화
+- [o] `requirements.txt` 설치
 
 ### 핵심 실행 결과
 
 ```text
 현재 프로젝트 경로:
 터미널 Python 실행 파일:
-가상환경 활성화 여부:
-패키지 설치 결과:
+가상환경 활성화 여부: O (venv 원활히 시행됨)
+패키지 설치 결과: 성공 (requirements.txt의 주요 패키지 정상 설치 완료)
 ```
 
 ### Evidence
 
 ![가상환경과 Python 경로](images/step02_venv.png)
+<img width="1146" height="312" alt="step02_venv" src="https://github.com/user-attachments/assets/afb0b42f-cfc4-4945-b68b-b1b0319c223e" />
 
 ### 결과 관찰
 
 현재 `python`이 어떤 실행 파일을 가리키는지 작성하세요.
+C:\llm_data_analysis\chapter02\.venv\Scripts\python.exe
 
 ### 나의 해석과 판단
 
@@ -96,6 +98,7 @@ Python 기본 환경만 확인된 상태이므로, 실습 프로젝트에서 요
 ### 한계와 추가 확인 사항
 
 회사/기관 PC 정책, Python 버전 차이 등 현재 환경의 제약을 작성하세요.
+: 기존에 활용했던 Python의 경우 업데이트가 안되어있어, 업데이트 후에나 작동이 원활히 됨을 확인할 수 있었다. 
 
 ---
 
